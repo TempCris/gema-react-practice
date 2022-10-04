@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+body {
+    background-image: url("/src/img/fond.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Barra Navegacion*/
+.Navbar a{
+    text-decoration: none;
+    color: white;
+    list-style: none;   
+    text-align:center;
+    font-size:20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bottoms{
+    padding: 25px;
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Navbar ul{
+    display:flex;
+    width: 90%;
 }
-
-.App-link {
-  color: #61dafb;
+.Navbar{
+    width: 90%;
+    margin: 0 auto 35px auto;
+    background-color: #6969699d;
+    border-bottom: 1px solid #f47e20;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navbar img{
+    height: 60px;
+    margin: auto;
+}
+.Navbar section{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f47e20;
+    text-align: center;
+    padding-top: 10px;
+}
+.Navbar span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border-right: 1px solid #f47e20;
+}
+.Navbar h4{
+    color: white;
+    display:inline-block; 
+    font-size: 15px;   
+}
+.Navbar a:hover{
+    background-color: grey;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+    padding: 20px 
+}
+/*Contenido*/
+.cont-uno img{
+    margin: 20px auto 20px auto;
+    border-radius: 10%;
+    display: flex;
+    width:250px;
+    vertical-align: middle;
+    border-style: none;
+}
+.cont-uno h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-bottom: 1px solid #f47e20;
+    text-align: center; 
+    width: 90%;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}
+.cont-uno p {
+    padding: 10px;
+    white-space: pre-line;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color:#ffffff;
+}
+.cont-uno h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f47e20;
+    padding: 10px;
+    margin-top: 50px;
+}
+.cont-uno h3{
+    color: white;
+    font-size: 15px;
+}
+.cont-uno ul{
+    font-size: 14px;
+}
+.cont-uno a{
+    color: rgb(223, 153, 13);
+    text-decoration:none;
+    font-size: 14px;
+    text-align: center;
+}
+.lg-top-margin {
+    margin-top: 210px;
+}
+/*footer*/
+.footer {
+    width: 100%;
+    min-height: 70px;
+    background-color: #4242429d;
+    padding: 15px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+.footer ul{
+    display: flex;
+}
+.footer li{
+    list-style:none;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+.contact{
+    color: orange;
+    font-size: 30px;
+}
+.icons{
+    position: relative;
+}
+.blue a{
+    background-color:grey;
+    color:orange;
+}
+.footer a:hover{
+    color: rgb(223, 153, 13);
+}
+.card{
+    background-color: #6969699d;
+    text-align: center;
+    margin:15px;
+    width: 88%;
+    margin: 0px auto 0px auto;
+    padding: 20px 0px 10px 0px;
+}
+.cards h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-bottom: 1px solid #f47e20;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    font-size: 40px;
+    color: #ffffff;
+}
+.yellow{
+    background-color: yellow;
+}
+.card li{
+    text-align: left;
 }
